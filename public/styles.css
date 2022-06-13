@@ -1,0 +1,235 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{text-align: center;}
+
+.btn{
+    padding: 5px 5px;
+border-radius: 5px;
+color: white;
+font-size:20px;
+border: none;
+
+}
+
+
+#ham{
+    display: none;
+}
+.mobilenav{display: none;}
+.header{
+   margin-top: 0px; ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   margin-left: 3%;
+   height: 40px;
+  
+}
+
+
+#textnav{
+   
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+width: 400px;
+margin-right: 7%;
+}
+
+
+.textdiv{
+    width: 100%;
+    margin-top: 6%;
+}
+.firstdiv{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.firstdiv>img{
+width:50%;
+}
+
+
+
+.textdiv>h2{
+    font-size: 30px;
+}
+.textdiv>p{
+    font-size: 20px;
+}
+
+.tabheads{
+    font-size:21px;
+    font-weight:bold;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 5%;
+ 
+    margin-bottom: 30px;
+}
+#tab1{
+    width: 30%;
+    text-align: center;
+}
+#tab2{
+    width: 30%;
+    text-align: center;
+}
+#tab3{
+    width: 30%;
+    text-align: center;
+}
+
+.tab{
+    display: flex;
+flex-direction: row;
+margin-top: 20px;
+margin-bottom: 80px;
+}
+.tab>img{
+width: 50%;
+}
+
+.tabtext{
+    width:60%;
+    margin-top: 6%;
+    margin-left:5%;
+}
+.tabtext>p{
+    font-size: 20px;
+}
+.browserCard{
+
+
+    width: 33%;
+}
+
+.browserdiv{
+    display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+margin-bottom: 80px;
+}
+.browserCard>p{
+width: 50%;
+margin-left: 25%;
+
+}
+#browserbtn{
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: black;
+    background-color: hsl(231, 69%, 60%);
+    
+    border: none;
+
+}
+#chrome{margin-top: 0px;}
+#firefox{margin-top: 70px;}
+#opera{margin-top: 140px;}
+
+.headersub>p{
+text-align:center;
+width:50%;
+margin-left:25%;
+font-size:18px;
+}
+
+
+.question{
+width: 50%;
+margin-left: 25%;
+border-bottom: 1px solid black;
+
+line-height: 20px;
+font-size: 18px;
+
+
+}
+#firstQuestion{
+margin-top: 50px;
+border-top: 0.5px solid black;
+
+}
+.question>p{
+    width: 90%;
+    margin-left: 5%;
+   
+}
+
+
+#lastquestion{
+
+    margin-bottom: 20px;
+}
+.bluediv{
+    background-color: hsl(231, 69%, 60%);
+    margin-top: 100px;
+    text-align: center;
+     color: white;
+     height: 200px;
+}
+.bluediv>p{
+    padding-top: 30px;
+}
+input{
+width: 350px;
+height: 30px;
+border-radius: 5px;
+border: none;
+outline-color:  hsl(231, 69%, 60%);
+}
+
+form{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+ justify-content: center;
+    margin-bottom: 50px;
+}
+
+form>button{
+padding: 6px;
+border-radius: 5px;
+border: none;
+background-color: hsl(0, 94%, 66%);
+color: white;
+font-size: 18px;
+width: 100px;
+margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.textFooter{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    margin-left: -5%;
+
+}
+
+.imgfooter{
+    margin-right: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+

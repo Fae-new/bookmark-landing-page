@@ -1,0 +1,226 @@
+
+
+@media screen and (max-width:768px){
+    body{
+        min-width: 320px;
+    }
+
+    #textnav{
+        display: none;    
+        }
+        #ham{
+            display: block;    
+            }
+
+            
+            .mobilenav{
+                position: absolute;
+                background-color:hsl(229, 31%, 21%);
+                opacity: 0;
+                z-index: 1;
+                color: white;
+                text-align: center;
+                width: 90%;
+                margin-left: 5%;
+                border-radius: 5px;
+                margin-top: 35px;
+                font-size: 20px;
+                display: none;
+                
+            }
+            .mobilenav>p{border-bottom: 1px solid rgb(105, 104, 104);
+            padding-bottom: 10px;
+            width: 60%;
+            margin-left: 20%;
+            }
+            
+            .mobilenav>p:hover{
+            border: 1px solid white;
+            border-radius: 10px;
+            
+            }
+            #close{
+                margin-left: 90%;
+                margin-top: 5px;
+            }
+
+            .firstdiv{
+                flex-direction: column-reverse;
+            }
+.textdiv{
+    width: 100%;
+    text-align: center;
+}
+.textdiv>p{
+margin-left: 5%;
+    width: 90%;
+}
+.textdiv>h2{
+    width: 100%;
+    margin: 0%;
+}
+
+.firstdiv>img{width: 100%;}
+
+.btn{   font-size: 16px;}
+.btndiv{
+
+margin-left: 5%;
+
+}
+.headersub{
+    margin-top: 50px;
+}
+.headersub>p{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 20px; 
+}
+
+.headersub>h1{
+
+font-size: 24px;
+
+}
+.tabheads{display: block;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 25%;
+width: 50%;}
+#tab1,#tab2,#tab3{
+    width: 100%;
+    margin-top: 30px;
+ 
+}
+.tab{
+    flex-direction: column;
+}
+.tabtext{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+.tab>img{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.tab .btn{
+
+margin-left: 32.5%;
+
+}
+.browserdiv{
+    display: block;
+    margin-top: 50px;
+
+}
+
+.browserCard{
+    width: 60%;
+    margin-left: 20%;
+}
+.browserCard>h4{
+    width: 100%;
+}
+
+#opera,#chrome,#firefox{
+    margin-top: 40px;
+}
+.question{
+    width: 95%;
+    margin: 2.5%;
+    line-height: 20px;
+    font-size: 15px;
+
+}
+.question>h3{
+    font-size: 20px;
+}
+
+.bluediv{height: 280px;}
+
+.bluediv>h1{
+    font-size: 24px;
+}
+form{display: block;
+margin-top: 30px;
+width: 80%;
+margin-left: 10%;
+}
+input{
+    width: 100%;
+    
+}
+form>button{
+margin-top: 10px;
+
+}
+.footer{
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+.textFooter{
+    display: flex;
+    font-size: 20px;
+align-items: center;
+justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.imgfooter{
+margin-bottom: 20px;
+width: 60px;
+margin-left: -10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+#bottomlogo{
+    margin-top: 20px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Animation Classes */
+
+
+.open-animation{
+
+    animation: open 1s 1 both;
+    -webkit-animation:open 1s 1 both ;
+    -moz-animation:open 1s 1 both ;
+    -ms-animation:open 1s 1 both;
+    -o-animation: open 1s 1 both;
+
+}
+@keyframes open {
+    from{opacity: 0;}
+    to{ transform:rotate(360deg);opacity: 0.8;}
+    
+} 
+
+.close-animation{
+
+    animation: close 1s 1 both;
+    -webkit-animation:close 1s 1 both ;
+    -moz-animation:close 1s 1 both ;
+    -ms-animation:close 1s 1 both;
+    -o-animation: close 1s 1 both;
+}
+@keyframes close {
+    from{opacity: 0.8;display: block;}
+    to{transform:rotate(-360deg);opacity: 0;display: none;}
+    
+} 
+
+
+
+}
