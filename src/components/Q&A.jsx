@@ -1,9 +1,9 @@
-import React from "react";
+import React, {useState}from "react";
 
 
 function Question(props){
-const [show,toggleShow]=React.useState(false)
-const [counter,setCounter]=React.useState(1)
+const [show,toggleShow] = useState(false)
+const [counter,setCounter]=useState(1)
 function showAnswer(){
     setCounter(()=>{
         return(
