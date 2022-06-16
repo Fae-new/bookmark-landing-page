@@ -1,1 +1,1 @@
-live link: https://faebookmarklandingpage.netlify.app
+live link: https://faebookmarklanding.netlify.app
